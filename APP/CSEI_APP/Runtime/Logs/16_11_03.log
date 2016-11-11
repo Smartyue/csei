@@ -1,0 +1,18 @@
+[ 2016-11-03T14:51:51+08:00 ] 127.0.0.1 /Common/check_form_token
+ERR: 参数错误或者未定义:token
+
+[ 2016-11-03T14:52:08+08:00 ] 127.0.0.1 /Common/check_form_token/dsfs
+ERR: 参数错误或者未定义:token
+
+[ 2016-11-03T14:52:12+08:00 ] 127.0.0.1 /Common/check_form_token/dsfs
+ERR: 参数错误或者未定义:token
+
+[ 2016-11-03T14:52:18+08:00 ] 127.0.0.1 /Common/check_form_token/dfsf
+ERR: 参数错误或者未定义:token
+
+[ 2016-11-03T14:53:27+08:00 ] 127.0.0.1 /Common/check_form_token
+ERR: 参数错误或者未定义:token
+
+[ 2016-11-03T14:55:27+08:00 ] 127.0.0.1 /Common/make_form_token
+ERR: 参数错误或者未定义:string
+

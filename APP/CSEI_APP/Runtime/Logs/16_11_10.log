@@ -1,0 +1,636 @@
+[ 2016-11-10T09:50:40+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002591s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.001590s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000344s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000277s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002039s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2016-11-10T09:50:41+08:00 ] 127.0.0.1 /Index/assets/css/themes/theme-6.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-11-10T09:50:41+08:00 ] 127.0.0.1 /Common/notfind.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002097s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-11-10T09:50:47+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000740s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.002620s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025903s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000388s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000292s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000156s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001324s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2016-11-10T09:50:47+08:00 ] 127.0.0.1 /Index/assets/css/themes/theme-6.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-11-10T09:50:48+08:00 ] 127.0.0.1 /Common/notfind.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000887s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-11-10T09:55:10+08:00 ] 127.0.0.1 /User/assets/css/themes/theme-1.css
+ERR: 非法操作:assets
+
+[ 2016-11-10T12:14:02+08:00 ] 127.0.0.1 /'Index/test'.html
+ERR: 非法操作:test'
+
+[ 2016-11-10T13:48:40+08:00 ] 127.0.0.1 /Common/get_dev_info_list
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-11-10T14:18:20+08:00 ] 127.0.0.1 /Common/get_dev_info_list
+ERR: 参数错误或者未定义:user_id
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:10:49+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:48+08:00 ] 127.0.0.1 /Device/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:48+08:00 ] 127.0.0.1 /Device/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:48+08:00 ] 127.0.0.1 /Device/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:48+08:00 ] 127.0.0.1 /Device/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:48+08:00 ] 127.0.0.1 /Device/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:48+08:00 ] 127.0.0.1 /Device/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:48+08:00 ] 127.0.0.1 /Device/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:48+08:00 ] 127.0.0.1 /Device/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:48+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:11:49+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:08+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:09+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:10+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-10T18:12:11+08:00 ] 127.0.0.1 /Device/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+

@@ -1,0 +1,48 @@
+<body class="login">
+		<!-- start: LOCK SCREEN -->
+		<div class="row">
+			<div class="lock-screen">
+				<div class="box-ls">
+					<img alt="{#$userinfo->nickname#}" src="__ROOT__/{#$userinfo->logo#}" class="img-rounded" width="150px;" height="150px;"/>
+					<div class="user-info">
+						<h4>{#$userinfo->nickname#}</h4>
+						<span>{#$userinfo->email#}</span>
+						<form action="{#:U('Index/unlock')#}" class="form-login"  method="POST"> 
+							<div class="input-group">
+								<input type="password" placeholder="输入密码" class="form-control password" name="password">
+								<span class="input-group-btn">
+									<button class="btn btn-primary" type="submit">
+										<i class="fa fa-chevron-right"></i>
+									</button> </span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end: LOCK SCREEN -->
+		<!-- start: MAIN JAVASCRIPTS -->
+		<script src="__PUBLIC__/vendor/jquery/jquery.min.js"></script>
+		<script src="__PUBLIC__/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/vendor/modernizr/modernizr.js"></script>
+		<script src="__PUBLIC__/vendor/jquery-cookie/jquery.cookie.js"></script>
+		<script src="__PUBLIC__/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="__PUBLIC__/vendor/switchery/switchery.min.js"></script>
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="__PUBLIC__/vendor/jquery-validation/jquery.validate.min.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<!-- start: CLIP-TWO JAVASCRIPTS -->
+		<script src="__PUBLIC__/assets/js/main.js"></script>
+		<!-- start: JavaScript Event Handlers for this page -->
+		<script src="__PUBLIC__/assets/js/login.js"></script>
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+				Login.init();
+			});
+		</script>
+		<!-- end: JavaScript Event Handlers for this page -->
+		<!-- end: CLIP-TWO JAVASCRIPTS -->
+	</body>
+	<!-- end: BODY -->
