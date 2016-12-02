@@ -1,0 +1,526 @@
+<body>
+		<div id="app">
+			<!-- sidebar -->
+			<div class="sidebar app-aside" id="sidebar">
+				<div class="sidebar-container perfect-scrollbar">
+					<nav>
+						<!-- start: SEARCH FORM -->
+						<include file="Public:search_form"/>
+						<!-- end: SEARCH FORM -->
+						<!-- start: MAIN NAVIGATION MENU -->
+						<div class="navbar-title">
+							<span>主菜单 </span>
+						</div>
+						<include file="Public:device_menu"/>
+						<!-- end: MAIN NAVIGATION MENU -->
+						<!-- start: CORE FEATURES -->
+					
+						<!-- end: DOCUMENTATION BUTTON -->
+					</nav>
+				</div>
+			</div>
+			<!-- / sidebar -->
+			<div class="app-content">
+				<!-- start: TOP NAVBAR -->
+				<include file="Public:header"/>
+				<!-- end: TOP NAVBAR -->
+				<div class="main-content">
+					<div class="wrap-content container" id="container">
+						<!-- start: PAGE TITLE -->
+						<section id="page-title">
+							<div class="row">
+								<div class="col-sm-8">
+									<h1 class="mainTitle">{#$label|default="未绑定"#}</h1>
+									<span class="mainDescription">{#$dev_name#}</span>
+								</div>
+								<ol class="breadcrumb">
+									<li>
+										<span>电子标签</span>
+									</li>
+									<li class="active">
+										<span>设备信息</span>
+									</li>
+								</ol>
+							</div>
+						</section>
+						<!-- end: PAGE TITLE -->
+						<!-- start: INVOICE -->
+						<div class="container-fluid container-fullw bg-white">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="invoice">
+										<div class="row invoice-logo">
+											<div class="col-sm-6">
+												<img alt="" src="__PUBLIC__/assets/images/logodayin.png">
+											</div>
+											<div class="col-sm-6">
+											<if condition="$label neq null">
+												<p class="text-dark" style="padding-bottom: 5px;padding-top: 5px; ">
+													绑定日期 /{#$bind_date#} <small class="text-light">  </small>
+												</p>
+												<a class="btn btn-lg btn-primary btn-o hidden-print pull-right" href="__APP__/Label/un_bind/dev_id/{#$dev_id#}">
+													取消标签绑定 <i class="fa fa-chain-broken"></i>
+												</a>
+											<else/>
+											<p class="text-dark" style="padding-bottom: 5px;padding-top: 5px; ">
+													未绑定 <small class="text-light">  </small>
+												</p>
+											<a class="btn btn-lg btn-primary btn-o hidden-print pull-right" href="__APP__/Label/bind/dev_id/{#$dev_id#}">
+													绑定电子标签 <i class="fa fa-chain"></i>
+												</a>
+											</if>
+											</div>
+										</div>
+										<hr>
+										<div class="row">
+										<!-- 设备基本信息开始 -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="panel panel-white">
+													<div class="panel-heading">
+														<div class="panel-title">
+															基本信息
+														</div>
+													</div>
+													<div class="panel-body">
+														<ul class="list-unstyled invoice-details padding-bottom-30 padding-top-10 text-dark">
+															<li>
+																<strong>设备编号:</strong> {#$base_info->dev_no|default="—"#}
+															</li>
+															<li>
+																<strong>设备名称:</strong> {#$base_info->dev_name|default="—"#}
+															</li>
+															<li>
+																<strong>设备类型:</strong> {#$base_info->dev_type|default="—"#}
+															</li>
+															<li>
+																<strong>出厂编号:</strong> {#$base_info->dev_sn|default="—"#}
+															</li>
+															<li>
+																<strong>固定资产分类名称:</strong> {#$base_info->asset_name|default="—"#}
+															</li>
+															<li>
+																<strong>固定资产分类编码:</strong> {#$base_info->asset_sn|default="—"#}
+															</li>
+															<li>
+																<strong>固定资产属性:</strong> {#$base_info->_asset_property|default="—"#}
+															</li>
+															<li>
+																<strong>固定资产编号:</strong> {#$base_info->asset_no|default="—"#}
+															</li>
+															<li>
+																<strong>设备属性A:</strong> {#$base_info->_property_a|default="—"#}
+															</li>
+															<li>
+																<strong>设备属性B:</strong> {#$base_info->_property_b|default="—"#}
+															</li>
+															<li>
+																<strong>设备属性C:</strong> {#$base_info->_property_c|default="—"#}
+															</li>
+															<li>
+																<strong>应用属性:</strong>{#$base_info->app_property|default="—"#}
+															</li>
+
+															<li>
+																<strong>档案号:</strong> {#$base_info->file_no|default="—"#}
+															</li>
+														</ul>
+														<button type="button" class="btn btn-primary btn-block btn-scroll btn-scroll-top ti-arrow-right" data-toggle="modal" data-target=".bs-example-modal-right" onclick="window.location.href='{#:U('Device/base_edit',array('dev_id'=>$base_info->id))#}';">
+														<span>编辑</span>
+													</button>
+													</div>
+												</div>
+											</div>
+											<!-- 设备基本信息结束-->
+											
+											<!-- 设备购置信息开始 -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="panel panel-white">
+													<div class="panel-heading">
+														<div class="panel-title">
+															购置信息
+														</div>
+													</div>
+													<div class="panel-body">
+														<ul class="list-unstyled invoice-details padding-bottom-30 padding-top-10 text-dark">
+															<li>
+																<strong>采购申请编号:</strong>{#$buy_info->apply_no|default="—"#}
+															</li>
+															<li>
+																<strong>采购项目编号:</strong>{#$buy_info->project_no|default="—"#}
+															</li>
+															<li>
+																<strong>增加方式:</strong> {#$buy_info->_add_method|default="—"#}
+															</li>
+															<li>
+																<strong>预算:</strong> {#$buy_info->budget|default="—"#}
+															</li>
+															<li>
+																<strong>列支说明:</strong> {#$buy_info->charge|default="—"#}
+															</li>
+															<li>
+																<strong>组织方式:</strong>{#$buy_info->_group_method|default="—"#}
+															</li>
+															<li>
+																<strong>采购方式:</strong>{#$buy_info->_buy_method|default="—"#}
+															</li>
+															<li>
+																<strong>合同编号:</strong> {#$buy_info->agreement_no|default="—"#}
+															</li>
+
+															<li>
+																<strong>合同日期:</strong> {#$buy_info->agreement_date|default="—"#}
+															</li>
+															<li>
+																<strong>到货日期:</strong>{#$buy_info->arrive_date|default="—"#}
+															</li>
+															<li>
+																<strong>经办人:</strong> {#$buy_info->passer|default="—"#}
+															</li>
+															<li>
+																<strong>购置部门:</strong> {#$buy_info->buy_dept|default="—"#}
+															</li>
+															<li>
+																<strong>购置时新旧情况:</strong> {#$buy_info->_is_new|default="—"#}
+															</li>
+															<li>
+																<strong>科免属性:</strong> {#$buy_info->_kemian|default="—"#}
+															</li>
+														</ul>
+														<button type="button" class="btn btn-primary btn-block btn-scroll btn-scroll-top ti-arrow-right" data-toggle="modal" data-target=".bs-example-modal-right" onclick="window.location.href='{#:U('Device/buy_edit',array('dev_id'=>$base_info->id))#}';">
+														<span>编辑</span></button>
+													</div>
+												</div>
+											</div>
+											<!-- 设备购置信息结束 -->
+											
+											<!-- 设备验收信息开始 -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="panel panel-white">
+													<div class="panel-heading">
+														<div class="panel-title">
+															验收信息
+														</div>
+													</div>
+													<div class="panel-body">
+														<ul class="list-unstyled invoice-details padding-bottom-30 padding-top-10 text-dark">
+
+															<li>
+																<strong>验收人:</strong> {#$check_info->checker|default="—"#}
+															</li>
+															<li>
+																<strong>验收日期:</strong> {#$check_info->date|default="—"#}
+															</li>
+															<li>
+																<strong>验收结论:</strong> {#$check_info->result|default="—"#}
+															</li>
+															<li>
+																<strong>安装放置地点:</strong> {#$check_info->address|default="—"#}
+															</li>
+															<li>
+																<strong>其他:</strong>{#$check_info->others|default="—"#}
+															</li>
+
+															<li>
+																<strong>管理状态:</strong> {#$check_info->_manage_status|default="—"#}
+															</li>
+															<li>
+																<strong>配置状态:</strong> {#$check_info->_config_status|default="—"#}
+															</li>
+															<li>
+																<strong>设备状态:</strong> {#$check_info->_status|default="—"#}
+															</li>
+															<li>
+																<strong>是否固定设备:</strong> {#$check_info->_is_asset|default="—"#}
+															</li>
+															<li>
+																<strong>借用状态:</strong>  {#$check_info->_borrow_status|default="—"#}
+															</li>
+															<li>
+																<strong>是否免税:</strong> {#$check_info->_is_free|default="—"#}
+															</li>
+														</ul>
+														<button type="button" class="btn btn-primary btn-block btn-scroll btn-scroll-top ti-arrow-right" data-toggle="modal" data-target=".bs-example-modal-right" onclick="window.location.href='{#:U('Device/check_edit',array('dev_id'=>$base_info->id))#}';">
+														<span>编辑</span></button>
+													</div>
+												</div>
+											</div>
+											<!-- 设备验收信息结束-->
+											
+											<!-- 设备管理信息开始 -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="panel panel-white">
+													<div class="panel-heading">
+														<div class="panel-title">
+															管理信息
+														</div>
+													</div>
+													<div class="panel-body">
+														<ul class="list-unstyled invoice-details padding-bottom-30 padding-top-10 text-dark">
+															<li>
+																<strong>使用部门:</strong> {#$manage_info->use_dept|default="—"#}
+															</li>
+															<li>
+																<strong>部门设备管理员:</strong> {#$manage_info->dept_admin|default="—"#}
+															</li>
+															<li>
+																<strong>使用人:</strong> {#$manage_info->dev_user|default="—"#}
+															</li>
+															<li>
+																<strong>管理部门:</strong>{#$manage_info->manage_dept|default="—"#}
+															</li>
+															<li>
+																<strong>院管理员:</strong> {#$manage_info->yard_admin|default="—"#}
+															</li>
+															<li>
+																<strong>设备技术负责人:</strong> {#$manage_info->tech_admin|default="—"#}
+															</li>
+															<li>
+																<strong>使用费比率:</strong>{#$manage_info->use_percent|default="—"#}
+															</li>
+															<li>
+																<strong>使用费:</strong>{#$manage_info->use_price|default="—"#}
+															</li>
+															<li>
+																<strong>备注:</strong>{#$manage_info->note|default="—"#}
+															</li>
+															<li>
+																<strong>处置方式:</strong>{#$manage_info->_manage_method|default="—"#}
+															</li>
+															<li>
+																<strong>处置原因:</strong>{#$manage_info->manage_reason|default="—"#}
+															</li>
+															<li>
+																<strong>处置方式其他:</strong>{#$manage_info->manage_method_other|default="—"#}
+															</li>
+															<li>
+																<strong>管理名称:</strong>{#$manage_info->manage_name|default="—"#}
+															</li>
+															<li>
+																<strong>财务资产编号:</strong> {#$manage_info->finance_no|default="—"#}
+															</li>
+														</ul>
+														<button type="button" class="btn btn-primary btn-block btn-scroll btn-scroll-top ti-arrow-right" data-toggle="modal" data-target=".bs-example-modal-right" onclick="window.location.href='{#:U('Device/manage_edit',array('dev_id'=>$base_info->id))#}';">
+														<span>编辑</span></button>
+													</div>
+												</div>
+											</div>
+											<!-- 设备管理信息结束-->
+											
+											<!-- 设备技术参数信息开始 -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="panel panel-white">
+													<div class="panel-heading">
+														<div class="panel-title">
+															技术参数
+														</div>
+													</div>
+													<div class="panel-body">
+														<ul class="list-unstyled invoice-details padding-bottom-30 padding-top-10 text-dark">
+															<li>
+																<strong>投用日期:</strong> {#$tech_info->date|default="—"#}
+															</li>
+															<li>
+																<strong>投用年限:</strong>{#$tech_info->years|default="—"#}
+															</li>
+															<li>
+																<strong>规格型号:</strong>{#$tech_info->spec|default="—"#}
+															</li>
+															<li>
+																<strong>精度:</strong>{#$tech_info->precise|default="—"#}
+															</li>
+															<li>
+																<strong>测量范围:</strong>{#$tech_info->dev_range|default="—"#}
+															</li>
+															<li>
+																<strong>设备功能:</strong>{#$tech_info->function|default="—"#}
+															</li>
+															<li>
+																<strong>技术特性:</strong>{#$tech_info->tech_spec|default="—"#}
+															</li>
+
+														</ul>
+														<button type="button" class="btn btn-primary btn-block btn-scroll btn-scroll-top ti-arrow-right" data-toggle="modal" data-target=".bs-example-modal-right" onclick="window.location.href='{#:U('Device/tech_edit',array('dev_id'=>$base_info->id))#}';">
+														<span>编辑</span></button>
+													</div>
+												</div>
+											</div>
+											<!-- 设备技术参数信息结束 -->
+											
+											<!-- 设备费用信息开始 -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="panel panel-white">
+													<div class="panel-heading">
+														<div class="panel-title">
+															费用信息
+														</div>
+													</div>
+													<div class="panel-body">
+														<ul class="list-unstyled invoice-details padding-bottom-30 padding-top-10 text-dark">
+															<li>
+																<strong>主机原值:</strong>{#$cost_info->old_price|default="—"#}
+															</li>
+															<li>
+																<strong>其他费用一:</strong> {#$cost_info->other_price_one|default="—"#}
+															</li>
+															<li>
+																<strong>附加价格:</strong> {#$cost_info->add_price|default="—"#}
+															</li>
+															<li>
+																<strong>其他费用二:</strong>{#$cost_info->other_price_two|default="—"#}
+															</li>
+															<li>
+																<strong>外币金额:</strong> {#$cost_info->foreign_price|default="—"#}
+															</li>
+															<li>
+																<strong>其他费用三:</strong> {#$cost_info->other_price_three|default="—"#}
+															</li>
+															<li>
+																<strong>合计金额:</strong> {#$cost_info->sum_price|default="—"#}
+															</li>
+															<li>
+																<strong>代理费:</strong> {#$cost_info->act_price|default="—"#}
+															</li>
+
+														</ul>
+														<button type="button" class="btn btn-primary btn-block btn-scroll btn-scroll-top ti-arrow-right" data-toggle="modal" data-target=".bs-example-modal-right" onclick="window.location.href='{#:U('Device/cost_edit',array('dev_id'=>$base_info->id))#}';">
+														<span>编辑</span></button>
+													</div>
+												</div>
+											</div>
+											<!-- 设备费用信息结束 -->
+											
+											<!-- 设备检定信息开始 -->
+											<div class="col-sm-6 col-lg-3">
+												<div class="panel panel-white">
+													<div class="panel-heading">
+														<div class="panel-title">
+															检定信息
+														</div>
+													</div>
+													<div class="panel-body">
+														<ul class="list-unstyled invoice-details padding-bottom-30 padding-top-10 text-dark">
+															<li>
+																<strong>检定校验状态:</strong>{#$verify_info->_status|default="—"#}
+															</li>
+															<li>
+																<strong>检定校准日期:</strong> {#$verify_info->date|default="—"#}
+															</li>
+															<li>
+																<strong>检定校准周期:</strong> {#$verify_info->period|default="—"#}
+															</li>
+															<li>
+																<strong>计划检定校准日期:</strong> {#$verify_info->plan_date|default="—"#}
+															</li>
+															<li>
+																<strong>是否计量:</strong> {#$verify_info->_is_sum|default="—"#}
+															</li>
+														</ul>
+														<button type="button" class="btn btn-primary btn-block btn-scroll btn-scroll-top ti-arrow-right" data-toggle="modal" data-target=".bs-example-modal-right" onclick="window.location.href='{#:U('Device/verify_edit',array('dev_id'=>$base_info->id))#}';">
+														<span>编辑</span></button>
+													</div>
+												</div>
+											</div>
+											<!-- 设备检定信息结束-->
+											
+											<!-- 设备供应商信息开始 -->
+											<div class="col-sm-3">
+												<h4>供应商信息:</h4>
+												<div class="well">
+													<address>
+														<strong class="text-dark">制造国:中国</strong>
+													</address>
+													<address>
+														<strong class="text-dark">供应商: {#$sup_info->sup_name|default="—"#}</strong>
+														<br>
+														{#$sup_info->sup_tel|default="—"#} / {#$sup_info->sup_phone|default="—"#}
+													</address>
+													<address>
+														<strong class="text-dark">制造单位:{#$sup_info->mfrs_name|default="—"#}</strong>
+														<br>
+														{#$sup_info->mfrs_tel|default="—"#} / {#$sup_info->mfrs_phone|default="—"#}
+													</address>
+													<address>
+														<strong class="text-dark">代理商:{#$sup_info->act_name|default="—"#}</strong>
+														<br>
+														{#$sup_info->act_tel|default="—"#} / {#$sup_info->act_phone|default="—"#}
+													</address>
+													<address>
+														<strong class="text-dark">维修维护商:{#$sup_info->repair_name|default="—"#}</strong>
+														<br>
+														{#$sup_info->repair_tel|default="—"#} / {#$sup_info->repair_phone|default="—"#}
+													</address>
+													<button type="button" class="btn btn-primary btn-block btn-scroll btn-scroll-top ti-arrow-right" data-toggle="modal" data-target=".bs-example-modal-right" onclick="window.location.href='{#:U('Device/sup_edit',array('dev_id'=>$base_info->id))#}';">
+														<span>编辑</span></button>
+												</div>	
+											</div>
+											<!-- 设备供应商信息结束 -->
+										</div>
+
+										<div class="row">
+											<div class="col-sm-12 invoice-block" style="margin-top: 25px;">	
+												<a class="btn btn-lg btn-primary btn-o hidden-print">
+													归还 <i class="fa fa-hand-o-right"></i>
+												</a>
+												<a class="btn btn-lg btn-primary btn-o hidden-print" href="__APP__/Meterage/send_to_sub_sheet/dev_id/{#$dev_id#}">
+													送检 <i class="fa fa-location-arrow"></i>
+												</a>
+
+												<a class="btn btn-lg btn-primary btn-o hidden-print" href="__APP__/Meterage/send_to_verify/dev_id/{#$dev_id#}">
+													填写检定报告 <i class="fa fa-pencil"></i>
+												</a>
+												<a class="btn btn-lg btn-primary btn-o hidden-print">
+													发送停用通知 <i class="fa ti-alert"></i>
+												</a>
+												<a class="btn btn-lg btn-primary btn-o hidden-print">
+													打印不符合报告单 <i class="fa fa-file-word-o"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end: INVOICE -->
+					</div>
+				</div>
+			</div>
+			<!-- start: FOOTER -->
+			<include file="Public:footer"/>
+			<!-- end: FOOTER -->
+
+			<!-- start: SETTINGS -->
+			<include file="Public:settings"/>
+			<!-- end: SETTINGS -->
+		</div>
+		<!-- start: MAIN JAVASCRIPTS -->
+		<script src="__PUBLIC__/vendor/jquery/jquery.min.js"></script>
+		<script src="__PUBLIC__/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/vendor/modernizr/modernizr.js"></script>
+		<script src="__PUBLIC__/vendor/jquery-cookie/jquery.cookie.js"></script>
+		<script src="__PUBLIC__/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="__PUBLIC__/vendor/switchery/switchery.min.js"></script>
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: CLIP-TWO JAVASCRIPTS -->
+		<script src="__PUBLIC__/assets/js/main.js"></script>
+		<!-- start: JavaScript Event Handlers for this page -->
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+			});
+		</script>
+		<!-- end: JavaScript Event Handlers for this page -->
+		<!-- end: CLIP-TWO JAVASCRIPTS -->
+		        <!-- 页面加载完毕后监听是否扫码 -->
+        <script>
+        var check_scanning;
+        check_scanning=setInterval(check_is_scanning,1000);
+        function check_is_scanning(){
+        	$.post('__APP__/Label/scanning',{'test':1},function(data){
+        		 if(data.status==1){
+        			 clearInterval(check_scanning);
+        			window.location.href="__APP__/Device/show_info/id/"+data.dev_id;
+        		}
+        	});
+        }
+        </script>
+	</body>

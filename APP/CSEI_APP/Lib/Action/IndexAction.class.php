@@ -84,7 +84,7 @@ class IndexAction extends Action {
 		if ($result) {
 			$action_url = strstr ( __SELF__, 'action_url/' );
 			$action_url = str_replace ( 'action_url/', '', $action_url );
-			$_SESSION ['last_url'] = $action_url; // 将上一次的页面路径存session
+			$_SESSION ['last_url'] = $_SERVER['SERVER_NAME'].'/'.$action_url; // 将上一次的页面路径存session
 			redirect ( U ( 'Index/lock_screen' ) );
 		} else {
 			exit ( "服务器繁忙" );
@@ -143,7 +143,8 @@ class IndexAction extends Action {
 					if (isset ( $_SESSION ['last_url'] )) {
 						$last_url = $_SESSION ['last_url'];
 						$_SESSION ['last_url'] = NULL;
-						redirect (U($last_url) );
+						echo "<script>window.location.href='http://$last_url'</script>";
+					//	redirect($last_url);
 					} else {
 						redirect ( U ( 'Index/index' ) );
 					}

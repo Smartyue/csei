@@ -83,12 +83,12 @@
 								</a>
 								<ul class="sub-menu">
 									<li>
-										<a href="xinbiaoqianguanli.html">
+										<a href="<?php echo U('Label/index');?>">
 											<span class="title"> 电子标签绑定管理 </span>
 										</a>
 									</li>
 									<li>
-										<a href="yibangdingbiaoqianguanli.html">
+										<a href="<?php echo U('Label/bind_index');?>">
 											<span class="title"> 已绑定设备列表 </span>
 										</a>
 									</li>
@@ -126,35 +126,35 @@
 								</a>
 								<ul class="sub-menu">
 									<li>
-										<a href="jilianggaunli.html">
+										<a href="<?php echo U('Meterage/index');?>">
 											<span class="title">设备查询送检</span>
 										</a>
 									</li>
 									<li>
-										<a href="songjianqingdan.html">
+										<a href="<?php echo U('Meterage/sub_sheet');?>">
 											<span class="title">送检清单</span>
-											<span class="badge badge-danger"> 18 </span>
+											<?php if($sub_sheet_count > 0): ?><span class="badge badge-danger"> <?php echo ($sub_sheet_count); ?></span><?php endif; ?>
 										</a>
 									</li>
 									<li>
-										<a href="tianxiejiandingxinxi.html">
+										<a href="<?php echo U('Meterage/verify');?>"> 
 											<span class="title">填写检定校准信息</span>
-											<span class="badge badge-danger"> 3 </span>
+											<?php if($write_verify_count > 0): ?><span class="badge badge-danger"> <?php echo ($write_verify_count); ?></span><?php endif; ?>
 										</a>
 									</li>
 									<li>
-										<a href="shangchuanjiandingzhengshu.html">
+										<a href="<?php echo U('Meterage/verify_license');?>">
 											<span class="title">上传检定证书</span>
-											<span class="badge badge-danger"> 3 </span>
+											<?php if($upload_verify_count > 0): ?><span class="badge badge-danger"><?php echo ($upload_verify_count); ?> </span><?php endif; ?>
 										</a>
 									</li>
 									<li>
-										<a href="yiwanchengjiandingzhengshu.html">
+										<a href="<?php echo U('Meterage/done_license');?>"> 
 											<span class="title">已完成检定证书</span>
 										</a>
 									</li>
 									<li>
-										<a href="songjianlishitongji.html">
+										<a href="<?php echo U('Meterage/sub_history');?>">
 											<span class="title">送检历史统计</span>
 										</a>
 									</li>
@@ -195,22 +195,23 @@
 							<!-- start: LANGUAGE SWITCHER -->
 							<li class="dropdown">
 								<a href class="dropdown-toggle " data-toggle="dropdown">
-									<span class="dot-badge partition-red"></span><i class="ti-world "></i> 任务清单
+								<?php if($sum_count_all > 0): ?><span class="dot-badge partition-red"></span><?php endif; ?>
+									<i class="ti-world "></i> 任务清单
 								</a>
 								<ul role="menu" class="dropdown-menu dropdown-light fadeInUpShort">
 									<li>
-										<a href="songjianqingdan.html" class="menu-toggler">
+										<a href="<?php echo U('Meterage/sub_sheet');?>" class="menu-toggler">
 											送检清单
 										</a>
 
 									</li>
 									<li>
-										<a href="tianxiejiandingxinxi.html" class="menu-toggler">
+										<a href="<?php echo U('Meterage/verify');?>" class="menu-toggler">
 											待填写检定信息
 										</a>
 									</li>
 									<li>
-										<a href="shangchuanjiandingzhengshu.html" class="menu-toggler">
+										<a href="<?php echo U('Meterage/verify_license');?>" class="menu-toggler">
 											待上传检定证书
 										</a>
 									</li>
@@ -223,9 +224,13 @@
 									<img src="__ROOT__/<?php echo ($userinfo->logo); ?>" alt="<?php echo ($userinfo->nickname); ?>"> <span class="username"><?php echo ($userinfo->nickname); ?> <i class="ti-angle-down"></i></i></span>
 								</a>
 								<ul class="dropdown-menu dropdown-dark">
-
+								        <li>
+										<a href="<?php echo U('Scan/index');?>">
+											绑定扫描仪
+										</a>
+								     	</li>  
 									<li>
-										<a href="__APP__/Index/lock/action_url__ACTION__">
+										<a href="__APP__/Index/lock/action_url__SELF__">
 											锁定账号
 										</a>
 									</li>
@@ -302,7 +307,7 @@
 												管理电子标签与设备绑定
 											</p>
 											<p class="links cl-effect-1">
-												<a href="xinbiaoqianguanli.html">
+												<a href="<?php echo U('Label/index');?>">
 													点击进入
 												</a>
 											</p>
@@ -318,7 +323,7 @@
 												编辑修改设备信息及设备借出使用状态
 											</p>
 											<p class="cl-effect-1">
-												<a href="shebeixinxiguanli.html">
+												<a href="<?php echo U('Device/index');?>">
 													点击进入
 												</a>
 											</p>
@@ -334,7 +339,7 @@
 												设备送检、归还处理或填写检定报告
 											</p>
 											<p class="links cl-effect-1">
-												<a href="jilianggaunli.html">
+												<a href="<?php echo U('Meterage/index');?>">
 													点击进入
 												</a>
 											</p>
@@ -945,5 +950,18 @@
 		</script>
 		<!-- end: JavaScript Event Handlers for this page -->
 		<!-- end: CLIP-TWO JAVASCRIPTS -->
+		        <!-- 页面加载完毕后监听是否扫码 -->
+        <script>
+        var check_scanning;
+        check_scanning=setInterval(check_is_scanning,1000);
+        function check_is_scanning(){
+        	$.post('__APP__/Label/scanning',{'test':1},function(data){
+        		 if(data.status==1){
+        			 clearInterval(check_scanning);
+        			window.location.href="__APP__/Device/show_info/id/"+data.dev_id;
+        		}
+        	});
+        }
+        </script>
 	</body>
 </html>

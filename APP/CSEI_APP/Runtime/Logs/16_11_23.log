@@ -1,0 +1,515 @@
+[ 2016-11-23T10:21:17+08:00 ] 127.0.0.1 /Meterage/delete_verify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.003905s ]
+SQL: DELETE FROM `cs_verify` WHERE ( id=5 AND status=1 ) [ RunTime:0.001228s ]
+
+[ 2016-11-23T10:42:19+08:00 ] 127.0.0.1 /Meterage/delete_verify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.002794s ]
+SQL: DELETE FROM `cs_verify` WHERE ( id=7 AND status=1 ) [ RunTime:0.000673s ]
+
+[ 2016-11-23T10:43:57+08:00 ] 127.0.0.1 /Label/songjianqingdan.html
+ERR: 非法操作:songjianqingdan
+
+[ 2016-11-23T10:49:01+08:00 ] 127.0.0.1 /Label/songjianqingdan.html
+ERR: 非法操作:songjianqingdan
+
+[ 2016-11-23T10:55:34+08:00 ] 127.0.0.1 /Meterage/send_to_sub_sheet_list/dev_list/5
+ERR: 非法操作:send_to_sub_sheet_list
+
+[ 2016-11-23T11:08:54+08:00 ] 127.0.0.1 /Meterage/delete_verify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.002165s ]
+SQL: DELETE FROM `cs_verify` WHERE ( id=9 AND status=1 ) [ RunTime:0.000462s ]
+
+[ 2016-11-23T11:08:59+08:00 ] 127.0.0.1 /Meterage/delete_verify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.004334s ]
+SQL: DELETE FROM `cs_verify` WHERE ( id=10 AND status=1 ) [ RunTime:0.000755s ]
+
+[ 2016-11-23T11:09:03+08:00 ] 127.0.0.1 /Meterage/delete_verify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.002014s ]
+SQL: DELETE FROM `cs_verify` WHERE ( id=8 AND status=1 ) [ RunTime:0.000389s ]
+
+[ 2016-11-23T16:05:47+08:00 ] 127.0.0.1 /Meterage/sub_history.html
+ERR: 非法操作:sub_history
+
+[ 2016-11-23T16:05:53+08:00 ] 127.0.0.1 /Meterage/sub_history.html
+ERR: 非法操作:sub_history
+
+[ 2016-11-23T17:50:01+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.003613s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.005509s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.003685s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000483s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.004155s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2016-01-01' AND '2016-12-31' ) )  [ RunTime:0.000722s ]
+
+[ 2016-11-23T17:50:04+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004342s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003684s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.002489s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000451s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.003380s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000913s ]
+
+[ 2016-11-23T17:50:16+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.003747s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.005762s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.003583s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000585s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.002391s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2016-01-01' AND '2016-12-31' ) )  [ RunTime:0.000682s ]
+
+[ 2016-11-23T17:50:19+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004292s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.004554s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.005512s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.005422s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.005708s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000579s ]
+
+[ 2016-11-23T17:50:24+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004118s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.002307s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.006123s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000657s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.004169s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000623s ]
+
+[ 2016-11-23T17:50:29+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004831s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.002326s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.003584s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000829s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.004823s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2016-01-01' AND '2016-12-31' ) )  [ RunTime:0.000554s ]
+
+[ 2016-11-23T17:50:33+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004942s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003586s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.004155s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000464s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.007350s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000425s ]
+
+[ 2016-11-23T17:50:38+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.003172s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003375s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.001798s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000273s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.001880s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2016-01-01' AND '2016-12-31' ) )  [ RunTime:0.000275s ]
+
+[ 2016-11-23T17:50:53+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004156s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.001692s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.001779s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000308s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.003119s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000508s ]
+
+[ 2016-11-23T17:51:12+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004281s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003084s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.002689s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000389s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.005227s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000848s ]
+
+[ 2016-11-23T17:51:21+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.005703s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.004528s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.002582s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000688s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.001632s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.001376s ]
+
+[ 2016-11-23T17:51:49+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.005763s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003764s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.002110s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.005789s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000743s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.003197s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000559s ]
+
+[ 2016-11-23T17:52:08+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.002720s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003991s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.005074s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000741s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.003630s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000574s ]
+
+[ 2016-11-23T17:52:24+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.003252s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.001808s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.001892s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.001008s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.002004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000260s ]
+
+[ 2016-11-23T17:52:25+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.006319s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.004421s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.002712s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.001028s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.006411s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2016-01-01' AND '2016-12-31' ) )  [ RunTime:0.000785s ]
+
+[ 2016-11-23T17:52:34+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.002803s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.002099s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.002801s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.001340s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.003744s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000374s ]
+
+[ 2016-11-23T17:52:46+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.002568s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003450s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.003988s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000918s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.001953s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2016-01-01' AND '2016-12-31' ) )  [ RunTime:0.000442s ]
+
+[ 2016-11-23T17:52:47+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.002805s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.001786s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.004329s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000412s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.001591s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000431s ]
+
+[ 2016-11-23T17:52:53+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.002231s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.001503s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.004609s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000938s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.002785s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2016-01-01' AND '2016-12-31' ) )  [ RunTime:0.000437s ]
+
+[ 2016-11-23T17:52:55+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002701s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.006756s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003586s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.004590s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.001213s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.004352s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000657s ]
+
+[ 2016-11-23T17:52:57+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004036s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.002159s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.001687s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000718s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.003300s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2016-01-01' AND '2016-12-31' ) )  [ RunTime:0.001103s ]
+
+[ 2016-11-23T17:53:05+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.004768s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.004964s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.003882s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000635s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.003019s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2014-01-01' AND '2014-12-31' ) )  [ RunTime:0.000311s ]
+
+[ 2016-11-23T17:53:07+08:00 ] 127.0.0.1 /Meterage/ajax_find_log
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_user` [ RunTime:0.003199s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `status` FROM `cs_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.001949s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_sub_sheet` LIMIT 1   [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `cs_verify` [ RunTime:0.002417s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.000614s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_verify` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `cs_sub_log` [ RunTime:0.004465s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `cs_sub_log` WHERE (  (`date` BETWEEN '2016-01-01' AND '2016-12-31' ) )  [ RunTime:0.000538s ]
+

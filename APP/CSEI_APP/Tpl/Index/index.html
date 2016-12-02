@@ -37,12 +37,12 @@
 								</a>
 								<ul class="sub-menu">
 									<li>
-										<a href="xinbiaoqianguanli.html">
+										<a href="{#:U('Label/index')#}">
 											<span class="title"> 电子标签绑定管理 </span>
 										</a>
 									</li>
 									<li>
-										<a href="yibangdingbiaoqianguanli.html">
+										<a href="{#:U('Label/bind_index')#}">
 											<span class="title"> 已绑定设备列表 </span>
 										</a>
 									</li>
@@ -80,35 +80,41 @@
 								</a>
 								<ul class="sub-menu">
 									<li>
-										<a href="jilianggaunli.html">
+										<a href="{#:U('Meterage/index')#}">
 											<span class="title">设备查询送检</span>
 										</a>
 									</li>
 									<li>
-										<a href="songjianqingdan.html">
+										<a href="{#:U('Meterage/sub_sheet')#}">
 											<span class="title">送检清单</span>
-											<span class="badge badge-danger"> 18 </span>
+											<if condition="$sub_sheet_count gt 0">
+											<span class="badge badge-danger"> {#$sub_sheet_count#}</span>
+											</if>
 										</a>
 									</li>
 									<li>
-										<a href="tianxiejiandingxinxi.html">
+										<a href="{#:U('Meterage/verify')#}"> 
 											<span class="title">填写检定校准信息</span>
-											<span class="badge badge-danger"> 3 </span>
+											<if condition="$write_verify_count gt 0">
+											<span class="badge badge-danger"> {#$write_verify_count#}</span>
+											</if>
 										</a>
 									</li>
 									<li>
-										<a href="shangchuanjiandingzhengshu.html">
+										<a href="{#:U('Meterage/verify_license')#}">
 											<span class="title">上传检定证书</span>
-											<span class="badge badge-danger"> 3 </span>
+											<if condition="$upload_verify_count gt 0">
+											<span class="badge badge-danger">{#$upload_verify_count#} </span>
+											</if>
 										</a>
 									</li>
 									<li>
-										<a href="yiwanchengjiandingzhengshu.html">
+										<a href="{#:U('Meterage/done_license')#}"> 
 											<span class="title">已完成检定证书</span>
 										</a>
 									</li>
 									<li>
-										<a href="songjianlishitongji.html">
+										<a href="{#:U('Meterage/sub_history')#}">
 											<span class="title">送检历史统计</span>
 										</a>
 									</li>
@@ -181,7 +187,7 @@
 												管理电子标签与设备绑定
 											</p>
 											<p class="links cl-effect-1">
-												<a href="xinbiaoqianguanli.html">
+												<a href="{#:U('Label/index')#}">
 													点击进入
 												</a>
 											</p>
@@ -197,7 +203,7 @@
 												编辑修改设备信息及设备借出使用状态
 											</p>
 											<p class="cl-effect-1">
-												<a href="shebeixinxiguanli.html">
+												<a href="{#:U('Device/index')#}">
 													点击进入
 												</a>
 											</p>
@@ -213,7 +219,7 @@
 												设备送检、归还处理或填写检定报告
 											</p>
 											<p class="links cl-effect-1">
-												<a href="jilianggaunli.html">
+												<a href="{#:U('Meterage/index')#}">
 													点击进入
 												</a>
 											</p>
@@ -706,4 +712,17 @@
 		</script>
 		<!-- end: JavaScript Event Handlers for this page -->
 		<!-- end: CLIP-TWO JAVASCRIPTS -->
+		        <!-- 页面加载完毕后监听是否扫码 -->
+        <script>
+        var check_scanning;
+        check_scanning=setInterval(check_is_scanning,1000);
+        function check_is_scanning(){
+        	$.post('__APP__/Label/scanning',{'test':1},function(data){
+        		 if(data.status==1){
+        			 clearInterval(check_scanning);
+        			window.location.href="__APP__/Device/show_info/id/"+data.dev_id;
+        		}
+        	});
+        }
+        </script>
 	</body>

@@ -1,6 +1,14 @@
 <?php
 //用户相关方法
 class UserAction extends Action{
+	
+	/*
+	 *
+	 * 空操作
+	 */
+	public function _empty() {
+		redirect ( U ( 'Common/notfind' ) );
+	}
 	//忘记密码页面
 	public function forget(){
 		if(isset($_SESSION['user'])){

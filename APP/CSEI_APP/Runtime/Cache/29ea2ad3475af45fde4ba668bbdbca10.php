@@ -66,7 +66,7 @@
 						<div class="navbar-title">
 							<span>主菜单 </span>
 						</div>
-						<ul class="main-navigation-menu">
+												<ul class="main-navigation-menu">
 							<li>
 								<a href="<?php echo U('Index/index');?>">
 									<div class="item-content">
@@ -92,12 +92,12 @@
 								</a>
 								<ul class="sub-menu">
 									<li>
-										<a href="xinbiaoqianguanli.html">
+										<a href="<?php echo U('Label/index');?>">
 											<span class="title"> 电子标签绑定管理 </span>
 										</a>
 									</li>
 									<li>
-										<a href="yibangdingbiaoqianguanli.html">
+										<a href="<?php echo U('Label/bind_index');?>">
 											<span class="title"> 已绑定设备列表 </span>
 										</a>
 									</li>
@@ -115,14 +115,14 @@
 									</div>
 								</a>
 								<ul class="sub-menu">
-									<li>
+									<li class="active">
 										<a href="<?php echo U('Device/index');?>">
 											<span class="title"> 设备信息管理</span>
 										</a>
 									</li>
 								</ul>
 							</li>
-							<li>
+							<li >
 								<a href="javascript:void(0)">
 									<div class="item-content">
 										<div class="item-media">
@@ -135,35 +135,35 @@
 								</a>
 								<ul class="sub-menu">
 									<li>
-										<a href="jilianggaunli.html">
+										<a href="<?php echo U('Meterage/index');?>">
 											<span class="title">设备查询送检</span>
 										</a>
 									</li>
 									<li>
-										<a href="songjianqingdan.html">
+										<a href="<?php echo U('Meterage/sub_sheet');?>">
 											<span class="title">送检清单</span>
-											<span class="badge badge-danger"> 18 </span>
+											<?php if($sub_sheet_count > 0): ?><span class="badge badge-danger"> <?php echo ($sub_sheet_count); ?></span><?php endif; ?>
 										</a>
 									</li>
 									<li>
-										<a href="tianxiejiandingxinxi.html">
+										<a href="<?php echo U('Meterage/verify');?>">
 											<span class="title">填写检定校准信息</span>
-											<span class="badge badge-danger"> 3 </span>
+											<?php if($write_verify_count > 0): ?><span class="badge badge-danger"> <?php echo ($write_verify_count); ?></span><?php endif; ?>
 										</a>
 									</li>
 									<li>
-										<a href="shangchuanjiandingzhengshu.html">
+										<a href="<?php echo U('Meterage/verify_license');?>">
 											<span class="title">上传检定证书</span>
-											<span class="badge badge-danger"> 3 </span>
+											<?php if($upload_verify_count > 0): ?><span class="badge badge-danger"><?php echo ($upload_verify_count); ?> </span><?php endif; ?>
 										</a>
 									</li>
 									<li>
-										<a href="yiwanchengjiandingzhengshu.html">
+										<a href="<?php echo U('Meterage/done_license');?>">
 											<span class="title">已完成检定证书</span>
 										</a>
 									</li>
 									<li>
-										<a href="songjianlishitongji.html">
+										<a href="<?php echo U('Meterage/sub_history');?>">
 											<span class="title">送检历史统计</span>
 										</a>
 									</li>
@@ -204,22 +204,23 @@
 							<!-- start: LANGUAGE SWITCHER -->
 							<li class="dropdown">
 								<a href class="dropdown-toggle " data-toggle="dropdown">
-									<span class="dot-badge partition-red"></span><i class="ti-world "></i> 任务清单
+								<?php if($sum_count_all > 0): ?><span class="dot-badge partition-red"></span><?php endif; ?>
+									<i class="ti-world "></i> 任务清单
 								</a>
 								<ul role="menu" class="dropdown-menu dropdown-light fadeInUpShort">
 									<li>
-										<a href="songjianqingdan.html" class="menu-toggler">
+										<a href="<?php echo U('Meterage/sub_sheet');?>" class="menu-toggler">
 											送检清单
 										</a>
 
 									</li>
 									<li>
-										<a href="tianxiejiandingxinxi.html" class="menu-toggler">
+										<a href="<?php echo U('Meterage/verify');?>" class="menu-toggler">
 											待填写检定信息
 										</a>
 									</li>
 									<li>
-										<a href="shangchuanjiandingzhengshu.html" class="menu-toggler">
+										<a href="<?php echo U('Meterage/verify_license');?>" class="menu-toggler">
 											待上传检定证书
 										</a>
 									</li>
@@ -232,9 +233,13 @@
 									<img src="__ROOT__/<?php echo ($userinfo->logo); ?>" alt="<?php echo ($userinfo->nickname); ?>"> <span class="username"><?php echo ($userinfo->nickname); ?> <i class="ti-angle-down"></i></i></span>
 								</a>
 								<ul class="dropdown-menu dropdown-dark">
-
+								        <li>
+										<a href="<?php echo U('Scan/index');?>">
+											绑定扫描仪
+										</a>
+								     	</li>  
 									<li>
-										<a href="__APP__/Index/lock/action_url__ACTION__">
+										<a href="__APP__/Index/lock/action_url__SELF__">
 											锁定账号
 										</a>
 									</li>
@@ -301,63 +306,32 @@
 												<div class="row">
 													<div class="col-md-8">
 														<div class="form-group" style="margin-top: 4px;">
-															<input type="text" name="firstName" class="form-control" placeholder="查询设备名称或编号">
+															<input type="text" name="search_name" class="form-control" placeholder="查询设备名称或编号">
 														</div>
 													</div>
 													<div class="col-md-4">
 														<div class="input-group input-daterange datepicker" style="padding-left: 0px; padding-right: 0px;">
-														<input type="text" class="form-control" placeholder="开始时间"/>
+														<input type="text" class="form-control"  name="bind_date_start"  placeholder="开始时间"/>
 														<span class="input-group-addon bg-primary">--</span>
-														<input type="text" class="form-control" placeholder="结束时间"/>
+														<input type="text" class="form-control" name="bind_date_end" placeholder="结束时间"/>
 													</div>
 													</div>
 												</div>
 												<div class="row">
 													<div class="col-md-4">
 														<div class="form-group">
-															<select name="country" class="cs-select cs-skin-slide">
-																<option value="" disabled selected>使用状态</option>
-																<option value="AL">全部</option>
-																<option value="AL">借出</option>
-																<option value="AK">不可借</option>
-																<option value="AZ">停用</option>
+															<select id="borrow_status" class="cs-select cs-skin-slide">
+																<option value="" disabled selected>借用状态</option>
+																<option value="1">不可借</option>
+																<option value="2">可借</option>
+																<option value="3">待借</option>
+																<option value="4">已借</option>
 															</select>
 														</div>
 													</div>
-													<div class="col-md-4">
+													<div class="col-md-8" style="z-index: 2;">
 														<div class="form-group">
-															<select name="country" class="cs-select cs-skin-slide">
-																<option value="" disabled selected>是否归还</option>
-																<option value="AL">合格</option>
-																<option value="AL">已归还</option>
-																<option value="AK">未归还</option>
-															</select>
-														</div>
-													</div>
-													<div class="col-md-4" style="z-index: 2;">
-														<div class="form-group">
-															<select name="country" class="cs-select cs-skin-slide">
-																<option value="" disabled selected>使用部门</option>
-																<option value="AL">全部</option>
-																<option value="AK">淄博</option>
-																<option value="AZ">院内</option>
-																<option value="AZ">游乐设施事业部B601</option>
-																<option value="AZ">扬州</option>
-																<option value="AZ">燕山</option>
-																<option value="AZ">新疆</option>
-																<option value="AZ">西安</option>
-																<option value="AZ">武汉</option>
-																<option value="AZ">危化品部B509</option>
-																<option value="AZ">泰国</option>
-																<option value="AZ">顺义</option>
-																<option value="AZ">首钢氧气厂</option>
-																<option value="AZ">实验室</option>
-																<option value="AZ">石家庄</option>
-																<option value="AZ">沈阳</option>
-																<option value="AZ">射线数字实验室</option>
-																<option value="AZ">上海</option>
-																<option value="AZ">三川大厦</option>
-															</select>
+															<input type="text" name="use_dept" class="form-control" placeholder="使用部门">
 														</div>
 													</div>
 												</div>
@@ -367,7 +341,7 @@
 											<div class="panel panel-white no-radius text-center">
 												<div class="panel-body">
 													<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-search fa-stack-1x fa-inverse"></i> </span>
-													<h3 style="margin-top: 10px;font-size: 20px;" class="links cl-effect-1 StepTitle"><a>确认搜索</a></h2>
+													<h3 style="margin-top: 10px;font-size: 20px;" class="links cl-effect-1 StepTitle"><a href="javascript:;" onclick="search_device();">确认搜索</a></h2>
 													<p class="text-small">
 														左侧编辑搜索条件
 													</p>
@@ -379,7 +353,7 @@
 												<div class="panel-body">
 													
 													<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-plus fa-stack-1x fa-inverse"></i></span>
-													<h3 style="margin-top: 10px;font-size: 20px;" class="links cl-effect-1 StepTitle"><a href="songjianqingdan.html">新增设备</a></h2>
+													<h3 style="margin-top: 10px;font-size: 20px;" class="links cl-effect-1 StepTitle"><a href="<?php echo U('Device/base_edit');?>">新增设备</a></h2>
 														
 													<p class="text-small">
 														点击新增设备
@@ -398,11 +372,11 @@
 								<div class="col-md-3">
 									<h5 class="over-title"><span class="text-bold">设备列表</span></h5>
 									<p  >
-										共3600条设备信息
+										共<?php echo ($dev_count); ?>条设备信息
 									</p>
 								</div>
 								<div class="col-sm-2"  style="float: right; min-width: 90px; position: relative; width: 6%; margin-bottom: 20px; margin-top: 5px;margin-right: 20px;">
-									<a href="#newFullEvent" class="btn btn-primary btn-o add-event" style="width: 80px;"><i class="fa fa-trash"></i> 删除</a>
+									<button  class="btn btn-primary btn-o add-event" style="width: 80px;" onclick="del_dev_list();"><i class="fa fa-trash"></i> 删除</button>
 								</div>
 							</div>
 						</div>
@@ -417,8 +391,8 @@
 											<tr>
 												<th id="diyilie">
 													<div class="checkbox clip-check check-primary ">
-														<input type="checkbox" id="checkbox#" onclick="selectAll()" value="全选/全不选" />
-														<label   for="checkbox#"></label>
+														<input type="checkbox" id="_checkbox"  onclick=" selectAll();"/>
+														<label   for="_checkbox"></label>
 													</div>
 												</th>
 												<th>#</th>
@@ -432,12 +406,12 @@
 												<th>操作</th>
 											</tr>
 										</thead>
-										<tbody>
+										<tbody id="search_result">
 										<?php if(is_array($dev_list)): foreach($dev_list as $key=>$vo): ?><tr>
 												<td>
 													<div class="checkbox clip-check check-primary ">
-														<input type="checkbox" id="checkbox1" value="1">
-														<label   for="checkbox1"></label>
+													<input type="checkbox" id="checkbox<?php echo ($vo["id"]); ?>"  value="<?php echo ($vo["id"]); ?>" name="dev_id_list">
+													<label   for="checkbox<?php echo ($vo["id"]); ?>"></label>
 													</div>
 												</td>
 												<td><?php echo ($vo["id"]); ?></td>
@@ -449,9 +423,9 @@
 												<td><?php echo (($vo["dev_sn"])?($vo["dev_sn"]):"—"); ?></td>
 												<td><?php echo (($vo["use_dept"])?($vo["use_dept"]):"—"); ?></td>
 												<td>
-													<a href="shebeixiangqing.html" class="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i class="fa fa-eye fa fa-white"></i></a>
-													<a href="#" class="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i class="fa fa-pencil fa fa-white"></i></a>
-														<a href="#" class="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i class="fa fa-times fa fa-white"></i></a>
+													<a href="<?php echo U('Device/show_info',array('id'=>$vo['id']));?>" class="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i class="fa fa-eye fa fa-white"></i></a>
+													<a href="<?php echo U('Device/info',array('id'=>$vo['id']));?>" class="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove"><i class="fa fa-pencil fa fa-white"></i></a>
+													<a href="javascript:;" class="btn btn-transparent btn-xs tooltips" tooltip-placement="top" tooltip="Remove" onclick="delete_dev(<?php echo ($vo["id"]); ?>);"><i class="fa fa-times fa fa-white"></i></a>
 												</td>
 											</tr><?php endforeach; endif; ?>
 										</tbody>
@@ -606,7 +580,7 @@
 		<script src="__PUBLIC__/vendor/selectFx/classie.js"></script>
 		<script src="__PUBLIC__/vendor/selectFx/selectFx.js"></script>
 		<script src="__PUBLIC__/vendor/select2/select2.min.js"></script>
-		<script src="__PUBLIC__/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+		<script src="__PUBLIC__/vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
 		<script src="__PUBLIC__/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
 		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
@@ -628,17 +602,42 @@
 			});
 		</script>
 		<script type="text/javascript">
-            function selectAll(){
-               var checkbox = document.getElementById('checkbox#');
-               checkbox.value==1?checkbox.value=2 : checkbox.value=1;
-               var checkboxs = document.getElementsByTagName('input');
-               for(var i=0; i<checkboxs.length;i++){
-               if(checkbox.value==1){
-                   checkboxs[i].checked=false;//全不选
-               }else{
-                   checkboxs[i].checked=true;//全选
-               }
-             }}
+		     function selectAll() {
+		    	 $("input[name='dev_id_list']").prop('checked',$('#_checkbox').is(':checked'));          
+			}
+            function del_dev_list(){
+            	var dev_list=[];
+            	$('input[name="dev_id_list"]:checked').each(function(){
+            		dev_list.push($(this).val());
+            	});
+            	if(dev_list.length==0){
+            		alert("没有选中项");
+            	}else{
+            		if(confirm("确定要删除选中的设备？")){
+            		window.location.href="__APP__/Device/delete_dev_list/dev_list/"+dev_list;
+            		}
+            	}
+            }
+            function delete_dev(id){
+            	if(confirm("确定要删除该设备？")){
+            		window.location.href="__APP__/Device/delete_dev_list/dev_list/"+id;
+            		}
+            }
+          //搜索
+            function search_device(){
+            	var search_name=$("input[name=search_name]").val().trim();//搜索名称
+                var bind_date_start=$("input[name=bind_date_start]").val();  //开始日期
+                var bind_date_end=$("input[name=bind_date_end]").val();   //结束日期
+                var borrow_status=$("#borrow_status").val();    //借用状态
+                var use_dept=$("input[name=use_dept]").val().trim();//使用部门
+                $.post('__APP__/Search/search_device',{'search_name':search_name,'bind_date_start':bind_date_start,'bind_date_end':bind_date_end,'borrow_status':borrow_status,'use_dept':use_dept},function(data){
+                	if(data==-1){
+                		alert("暂无设备数据");
+                	}else{
+                		$('#search_result').html(data);
+                	}
+                });
+            }
         </script>
         <script type = "text/javascript">
            window.onload = function(){
@@ -647,5 +646,18 @@
         </script>
 		<!-- end: JavaScript Event Handlers for this page -->
 		<!-- end: CLIP-TWO JAVASCRIPTS -->
+		        <!-- 页面加载完毕后监听是否扫码 -->
+        <script>
+        var check_scanning;
+        check_scanning=setInterval(check_is_scanning,1000);
+        function check_is_scanning(){
+        	$.post('__APP__/Label/scanning',{'test':1},function(data){
+        		 if(data.status==1){
+        			 clearInterval(check_scanning);
+        			window.location.href="__APP__/Device/show_info/id/"+data.dev_id;
+        		}
+        	});
+        }
+        </script>
 	</body>
 </html>

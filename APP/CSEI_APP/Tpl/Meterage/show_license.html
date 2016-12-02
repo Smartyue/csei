@@ -1,0 +1,134 @@
+<body>
+<!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+		<link href="__PUBLIC__/vendor/Jcrop/jquery.Jcrop.min.css" rel="stylesheet" media="screen">
+		<!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+		<div id="app">
+			<!-- sidebar -->
+			<div class="sidebar app-aside" id="sidebar">
+				<div class="sidebar-container perfect-scrollbar">
+					<nav>
+						<!-- start: SEARCH FORM -->
+						 <include file="Public:search_form"/>
+						<!-- end: SEARCH FORM -->
+						<!-- start: MAIN NAVIGATION MENU -->
+					<div class="navbar-title">
+							<span>主菜单 </span>
+						</div>
+						<include file="Public:meterage_done_license_menu"/>
+						<!-- end: MAIN NAVIGATION MENU -->
+						<!-- start: CORE FEATURES -->
+					
+						<!-- end: DOCUMENTATION BUTTON -->
+					</nav>
+				</div>
+			</div>
+			<!-- / sidebar -->
+			<div class="app-content">
+				<!-- start: TOP NAVBAR -->
+				<include file="Public:header"/>
+				<!-- end: TOP NAVBAR -->
+				<div class="main-content" >
+					<div class="wrap-content container" id="container">
+						<!-- start: PAGE TITLE -->
+						<section id="page-title">
+							<div class="row">
+								<div class="col-sm-10">
+									<h1 class="mainTitle">{#$end_date#}-{#$dev_name#}检定证书</h1>
+									<span class="mainDescription">设备编号：{#$dev_no#} ／ 规格型号：{#$spec#}</span>
+								</div>
+								<ol class="breadcrumb">
+									<li>
+										<span>检定证书</span>
+									</li>
+									<li class="active">
+										<span>详情</span>
+									</li>
+								</ol>
+							</div>
+						</section>
+						<!-- end: PAGE TITLE -->
+						<div class="container-fluid container-fullw" style="padding-top: 12px;padding-bottom: 0px;">
+							<div class="row ">
+								<div class="col-md-3">
+									<h5 class="over-title"><span class="text-bold">证书详情</span></h5>
+									<p  >
+										{#$page#}
+									</p>
+								</div>
+								<div  class="col-sm-2" style="float: right; min-width: 165px; position: relative; width: 11%; margin-bottom: 20px; margin-top: 5px; margin-right: 20px;">
+									<a href="{#:U('Device/show_info',array('id'=>$dev_id))#}" class="btn btn-primary btn-o add-event" style="width: 156px;"><i class="fa fa-server"></i> 查看设备详情</a>
+								</div>
+								<div  class="col-sm-2" style="float: right; min-width: 90px; position: relative; width: 6%; margin-bottom: 20px; margin-top: 5px;">
+									<a href="#newFullEvent" class="btn btn-primary btn-o add-event" style="width: 80px;" ><i class="fa fa-print"></i> 打印</a>
+								</div>
+								
+								<div class="col-sm-2"  style="float: right; min-width: 90px; position: relative; width: 6%; margin-bottom: 20px; margin-top: 5px;">
+									<a href="__APP__/Meterage/down_photo/id/{#$ver_id#}" class="btn btn-primary btn-o add-event" style="width: 80px;"><i class="fa fa-download"></i> 下载</a>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid container-fullw">
+							<div class="row">
+							<foreach name="list" item="vo">
+								<div class="col-md-12" style="padding-left: 15%;">
+									<img src="__ROOT__/{#$vo.photo_url#}" id="target2" alt="[Jcrop Example]" />
+									<div id="preview-pane">
+										<div class="preview-container">
+											<img src="__ROOT__/{#$vo.photo_url#}" class="jcrop-preview" alt="Preview" />
+										</div>
+									</div>
+								</div>
+							</foreach>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+			<!-- start: FOOTER -->
+			<include file="Public:footer"/>
+			<!-- end: FOOTER -->
+
+			<!-- start: SETTINGS -->
+			<include file="Public:settings"/>
+			<!-- end: SETTINGS -->
+		</div>
+		<!-- start: MAIN JAVASCRIPTS -->
+		<script src="__PUBLIC__/vendor/jquery/jquery.min.js"></script>
+		<script src="__PUBLIC__/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/vendor/modernizr/modernizr.js"></script>
+		<script src="__PUBLIC__/vendor/jquery-cookie/jquery.cookie.js"></script>
+		<script src="__PUBLIC__/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="__PUBLIC__/vendor/switchery/switchery.min.js"></script>
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="__PUBLIC__/vendor/Jcrop/jquery.Jcrop.min.js"></script>
+		<script src="__PUBLIC__/vendor/Jcrop/jquery.color.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<!-- start: CLIP-TWO JAVASCRIPTS -->
+		<script src="__PUBLIC__/assets/js/main.js"></script>
+		<!-- start: JavaScript Event Handlers for this page -->
+		<script src="__PUBLIC__/assets/js/form-image-cropping.js"></script>
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+				ImageCropping.init();
+			});
+		</script>
+		<!-- end: JavaScript Event Handlers for this page -->
+		<!-- end: CLIP-TWO JAVASCRIPTS -->
+		        <!-- 页面加载完毕后监听是否扫码 -->
+        <script>
+        var check_scanning;
+        check_scanning=setInterval(check_is_scanning,1000);
+        function check_is_scanning(){
+        	$.post('__APP__/Label/scanning',{'test':1},function(data){
+        		 if(data.status==1){
+        			 clearInterval(check_scanning);
+        			window.location.href="__APP__/Device/show_info/id/"+data.dev_id;
+        		}
+        	});
+        }
+        </script>
+	</body>

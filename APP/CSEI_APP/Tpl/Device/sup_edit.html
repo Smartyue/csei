@@ -1,0 +1,219 @@
+<body>
+		<div id="app">
+			<!-- sidebar -->
+			<div class="sidebar app-aside" id="sidebar">
+				<div class="sidebar-container perfect-scrollbar">
+					<nav>
+						<!-- start: SEARCH FORM -->
+						<include file="Public:search_form"/>
+						<!-- end: SEARCH FORM -->
+						<!-- start: MAIN NAVIGATION MENU -->
+						<div class="navbar-title">
+							<span>主菜单 </span>
+						</div>
+						<include file="Public:device_menu"/>
+						<!-- end: MAIN NAVIGATION MENU -->
+						<!-- start: CORE FEATURES -->
+					
+						<!-- end: DOCUMENTATION BUTTON -->
+					</nav>
+				</div>
+			</div>
+			<!-- / sidebar -->
+			<div class="app-content">
+				<!-- start: TOP NAVBAR -->
+				<include file="Public:header"/>
+				<!-- end: TOP NAVBAR -->
+				<div class="main-content">
+					<div class="wrap-content container" id="container">
+						<!-- start: PAGE TITLE -->
+						<section id="page-title">
+							<div class="row">
+								<div class="col-sm-8">
+									<h1 class="mainTitle">供应商信息</h1>
+									<span class="mainDescription">在下方输入框中编辑</span>
+								</div>
+								<ol class="breadcrumb">
+									<li>
+										<span>编辑</span>
+									</li>
+									<li class="active">
+										<span>设备信息</span>
+									</li>
+								</ol>
+							</div>
+						</section>
+						<!-- end: PAGE TITLE -->
+						<!-- start: INVOICE -->
+						<div class="container-fluid container-fullw bg-white">
+						<form action="__APP__/Device/sup_update" method="POST">
+						<input type="hidden" name="dev_id" value="{#$dev_id#}" />
+						<if condition="$sup_info:id gt 0">
+						<input type="hidden" name="id" value="{#$sup_info->id#}"/>
+						</if>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="invoice">
+										<table class="table table-striped table-bordered table-hover table-full-width " id="sample_1">
+											<tbody>
+												<tr>
+													<td>供应商:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="sup_name" class="form-control" placeholder=""  value="{#$sup_info->sup_name#}">
+															</div>
+													</td>
+													<td>供应商电话:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="sup_tel" class="form-control" placeholder="" value="{#$sup_info->sup_tel#}">
+															</div>
+													</td>
+													<td>供应商手机:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="sup_phone" class="form-control" placeholder="" value="{#$sup_info->sup_phone#}">
+															</div>
+													</td>
+												</tr>
+												
+												<tr>
+													<td>制造单位:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="mfrs_name" class="form-control" placeholder=""  value="{#$sup_info->mfrs_name#}">
+															</div>
+													</td>
+													<td>制造单位电话:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="mfrs_tel" class="form-control" placeholder=""  value="{#$sup_info->mfrs_tel#}">
+															</div>
+													</td>
+													<td>制造单位手机:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="mfrs_phone" class="form-control" placeholder=""  value="{#$sup_info->mfrs_phone#}">
+															</div>
+													</td>
+												</tr>
+												<tr>
+													<td>代理商:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="act_name" class="form-control" placeholder="" value="{#$sup_info->act_name#}" >
+															</div>
+													</td>
+													<td>代理商电话:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="act_tel" class="form-control" placeholder="" value="{#$sup_info->act_tel#}" >
+															</div>
+													</td>
+													<td>代理商手机:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="act_phone" class="form-control" placeholder=""  value="{#$sup_info->act_phone#}">
+															</div>
+													</td>
+												</tr>
+												<tr>
+													<td>维修维护商:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="repair_name" class="form-control" placeholder=""  value="{#$sup_info->repair_name#}">
+															</div>
+													</td>
+													<td>维修维护商电话:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="repair_tel" class="form-control" placeholder="" value="{#$sup_info->repair_tel#}">
+															</div>
+													</td>
+													<td>维修维护商手机:</td>
+													<td>
+															<div class="form-group" style="padding-top: 14px;">
+																<input type="text" name="repair_phone" class="form-control" placeholder="" value="{#$sup_info->repair_phone#}" >
+															</div>
+													</td>
+												</tr>
+										</table>
+									</div>
+									<div class="row">
+										<div class="col-sm-12 invoice-block" style="margin-top: 25px;">
+											<button class="btn btn-lg btn-primary btn-o hidden-print">
+												保存信息 <i class="fa fa-save"></i>
+											</button>
+											<button class="btn btn-lg btn-primary btn-o hidden-print" onclick="window.history.go(-1);">
+												取消 <i class="fa fa-times"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							</form>
+						</div>
+					</div>
+					<!-- end: INVOICE -->
+				</div>
+		</div>
+		<!-- start: FOOTER -->
+		<include file="Public:footer"/>
+		<!-- end: FOOTER -->
+
+		<!-- start: SETTINGS -->
+		<include file="Public:settings"/>
+		<!-- end: SETTINGS -->
+		</div>
+		<!-- start: MAIN JAVASCRIPTS -->
+		<script src="__PUBLIC__/vendor/jquery/jquery.min.js"></script>
+		<script src="__PUBLIC__/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/vendor/modernizr/modernizr.js"></script>
+		<script src="__PUBLIC__/vendor/jquery-cookie/jquery.cookie.js"></script>
+		<script src="__PUBLIC__/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="__PUBLIC__/vendor/switchery/switchery.min.js"></script>
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="__PUBLIC__/vendor/maskedinput/jquery.maskedinput.min.js"></script>
+		<script src="__PUBLIC__/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+		<script src="__PUBLIC__/vendor/autosize/autosize.min.js"></script>
+		<script src="__PUBLIC__/vendor/selectFx/classie.js"></script>
+		<script src="__PUBLIC__/vendor/selectFx/selectFx.js"></script>
+		<script src="__PUBLIC__/vendor/select2/select2.min.js"></script>
+		<script src="__PUBLIC__/vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+		<script src="__PUBLIC__/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="__PUBLIC__/vendor/select2/select2.min.js"></script>
+		<script src="__PUBLIC__/vendor/DataTables/jquery.dataTables.min.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+
+		<!-- start: CLIP-TWO JAVASCRIPTS -->
+		<script src="__PUBLIC__/assets/js/main.js"></script>
+		<!-- start: JavaScript Event Handlers for this page -->
+		<script src="__PUBLIC__/assets/js/table-data.js"></script>
+		<!-- start: JavaScript Event Handlers for this page -->
+		<script src="__PUBLIC__/assets/js/form-elements.js"></script>
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+				TableData.init();
+				FormElements.init();
+			});
+		</script>
+		<!-- end: JavaScript Event Handlers for this page -->
+		<!-- end: CLIP-TWO JAVASCRIPTS -->
+		        <!-- 页面加载完毕后监听是否扫码 -->
+        <script>
+        var check_scanning;
+        check_scanning=setInterval(check_is_scanning,1000);
+        function check_is_scanning(){
+        	$.post('__APP__/Label/scanning',{'test':1},function(data){
+        		 if(data.status==1){
+        			 clearInterval(check_scanning);
+        			window.location.href="__APP__/Device/show_info/id/"+data.dev_id;
+        		}
+        	});
+        }
+        </script>
+	</body>

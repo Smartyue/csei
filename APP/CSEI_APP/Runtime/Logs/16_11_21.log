@@ -1,0 +1,266 @@
+[ 2016-11-21T10:32:53+08:00 ] 127.0.0.1 /Meterage/send_to_sub_sheet/dev_id/3
+ERR: 非法操作:send_to_sub_sheet
+
+[ 2016-11-21T11:50:44+08:00 ] 127.0.0.1 /Meterage/tianxiejiandingxinxi.html
+ERR: 非法操作:tianxiejiandingxinxi
+
+[ 2016-11-21T12:18:16+08:00 ] 127.0.0.1 /Meterage/delete_sub_sheet
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.001802s ]
+SQL: DELETE FROM `cs_sub_sheet` WHERE ( id=10 ) [ RunTime:0.000710s ]
+
+[ 2016-11-21T12:18:41+08:00 ] 127.0.0.1 /Meterage/delete_sub_sheet
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003551s ]
+SQL: DELETE FROM `cs_sub_sheet` WHERE ( id=11 ) [ RunTime:0.001832s ]
+
+[ 2016-11-21T12:19:14+08:00 ] 127.0.0.1 /Meterage/delete_sub_sheet
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.002371s ]
+SQL: DELETE FROM `cs_sub_sheet` WHERE ( id=12 ) [ RunTime:0.000366s ]
+
+[ 2016-11-21T12:38:46+08:00 ] 127.0.0.1 /Meterage/delete_sub_sheet
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/csei/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `cs_sub_sheet` [ RunTime:0.003030s ]
+SQL: DELETE FROM `cs_sub_sheet` WHERE ( id=13 ) [ RunTime:0.001064s ]
+
+[ 2016-11-21T16:13:35+08:00 ] 127.0.0.1 /Meterage/tianxiejiandingxinxi.html
+ERR: 非法操作:tianxiejiandingxinxi
+
+[ 2016-11-21T17:04:16+08:00 ] 127.0.0.1 /Meterage/tianxiejiandingxinxi.html
+ERR: 非法操作:tianxiejiandingxinxi
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:09:15+08:00 ] 127.0.0.1 /Meterage/shangchuanjiandingzhengshu.html
+ERR: 非法操作:shangchuanjiandingzhengshu
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:09:23+08:00 ] 127.0.0.1 /Meterage/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:11:13+08:00 ] 127.0.0.1 /Meterage/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/switchery/switchery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/modernizr/modernizr.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/jquery/jquery.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/maskedinput/jquery.maskedinput.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/jquery-cookie/jquery.cookie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/selectFx/classie.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/autosize/autosize.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-timepicker/bootstrap-timepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/select2/select2.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/assets/js/main.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/selectFx/selectFx.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/vendor/DataTables/jquery.dataTables.min.js
+ERR: 非法操作:vendor
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/assets/js/table-data.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T17:11:29+08:00 ] 127.0.0.1 /Meterage/assets/js/form-elements.js
+ERR: 非法操作:assets
+
+[ 2016-11-21T21:51:47+08:00 ] 127.0.0.1 /Meterage/yiwanchengjiandingzhengshu.html
+ERR: 非法操作:yiwanchengjiandingzhengshu
+

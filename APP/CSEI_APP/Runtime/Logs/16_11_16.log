@@ -1,0 +1,21 @@
+[ 2016-11-16T11:36:55+08:00 ] 127.0.0.1 /Device/xinbiaoqianguanli.html
+ERR: 非法操作:xinbiaoqianguanli
+
+[ 2016-11-16T13:58:52+08:00 ] 127.0.0.1 /Device/delete_dev_list/dev_list/1
+ERR: 非法操作:delete_dev_list
+
+[ 2016-11-16T13:59:07+08:00 ] 127.0.0.1 /Device/delete_dev_list/dev_list/1,2,3
+ERR: 非法操作:delete_dev_list
+
+[ 2016-11-16T13:59:14+08:00 ] 127.0.0.1 /Device/delete_dev_list/dev_list/1
+ERR: 非法操作:delete_dev_list
+
+[ 2016-11-16T14:00:04+08:00 ] 127.0.0.1 /Device/delete_dev_list/dev_list/1,2,3
+ERR: 非法操作:delete_dev_list
+
+[ 2016-11-16T21:21:25+08:00 ] 127.0.0.1 /Device/xinbiaoqianguanli.html
+ERR: 非法操作:xinbiaoqianguanli
+
+[ 2016-11-16T21:38:48+08:00 ] 127.0.0.1 /Label/yibangdingbiaoqianguanli.html
+ERR: 非法操作:yibangdingbiaoqianguanli
+

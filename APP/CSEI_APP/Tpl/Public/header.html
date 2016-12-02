@@ -22,22 +22,25 @@
 							<!-- start: LANGUAGE SWITCHER -->
 							<li class="dropdown">
 								<a href class="dropdown-toggle " data-toggle="dropdown">
-									<span class="dot-badge partition-red"></span><i class="ti-world "></i> 任务清单
+								<if condition="$sum_count_all gt 0">
+									<span class="dot-badge partition-red"></span>
+								</if>
+									<i class="ti-world "></i> 任务清单
 								</a>
 								<ul role="menu" class="dropdown-menu dropdown-light fadeInUpShort">
 									<li>
-										<a href="songjianqingdan.html" class="menu-toggler">
+										<a href="{#:U('Meterage/sub_sheet')#}" class="menu-toggler">
 											送检清单
 										</a>
 
 									</li>
 									<li>
-										<a href="tianxiejiandingxinxi.html" class="menu-toggler">
+										<a href="{#:U('Meterage/verify')#}" class="menu-toggler">
 											待填写检定信息
 										</a>
 									</li>
 									<li>
-										<a href="shangchuanjiandingzhengshu.html" class="menu-toggler">
+										<a href="{#:U('Meterage/verify_license')#}" class="menu-toggler">
 											待上传检定证书
 										</a>
 									</li>
@@ -50,9 +53,13 @@
 									<img src="__ROOT__/{#$userinfo->logo#}" alt="{#$userinfo->nickname#}"> <span class="username">{#$userinfo->nickname#} <i class="ti-angle-down"></i></i></span>
 								</a>
 								<ul class="dropdown-menu dropdown-dark">
-
+								        <li>
+										<a href="{#:U('Scan/index')#}">
+											绑定扫描仪
+										</a>
+								     	</li>  
 									<li>
-										<a href="__APP__/Index/lock/action_url__ACTION__">
+										<a href="__APP__/Index/lock/action_url__SELF__">
 											锁定账号
 										</a>
 									</li>
